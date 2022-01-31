@@ -1,4 +1,5 @@
 var myArray = [11,24,35,56];
+let todos_resultados = "";
 console.log('array: ' + myArray+' : ['+myArray.length+']');
 console.log('ADDED, Novo lenght: '+myArray.push(‘new string’)); //lenght 5
 console.log('array: ' + myArray+' : ['+myArray.length+']');
@@ -13,3 +14,4 @@ console.log('array: ' + myArray+' : ['+myArray.length+']');
 console.log(myArray.splice(0,3));// remove do zero [0] dos primeiros 3
 console.log('array: ' + myArray); //
 console.log(eval("94.6/0.05+'sdsd'"));
+document.getElementById('funcionalidades').innerHTML = todos_resultados;
