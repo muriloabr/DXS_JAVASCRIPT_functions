@@ -67,4 +67,16 @@ todos_resultados += '</div>';
 document.getElementById('funcionalidades').innerHTML = todos_resultados;
 /*ARRAYS -- FIM*/
 
+
+document.body.onload = carregarNoONloadBody; //setando o onload do body por codigo
+function carregarNoONloadBody () {
+    var divNova = document.createElement("div"); // cria um novo elemento div
+    var conteudoNovo = document.createTextNode("Antes de tudo, muito boa sorte! [adição de elemento]"); // dar conteúdo a div    
+    divNova.appendChild(conteudoNovo); //adiciona o nó de texto à nova div criada
+    divNova.className = "row"; 
+    var primeiraDiv = document.getElementById("arrays"); //seleciono a div arrays
+    primeiraDiv.parentNode.insertBefore(divNova, primeiraDiv); //adiciono no DOM antes da primeira div selecionada
+    primeiraDiv.parentNode.firstChild.className = "letra_vermelha"; //adicionando uma classe ao elemento selecionado
+}
+document.getElementById('funcionalidades').children[0].innerHTML += '<hr class="separador espacamento_externo_superior_inferior">';
 console.log("FIM > "+ horaAtual()); //horario atual
