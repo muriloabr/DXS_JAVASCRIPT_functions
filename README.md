@@ -1,20 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Funções Javascript | DXS</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-  <link rel="icon" type="image/x-icon" href="https://dataxstudios.com.br/assets/images/DXS_ico-300x300.png">
-  <link rel="stylesheet" href="https://dataxstudios.com.br/assets/css/site.css"/>  
-</head>
-<body class="fundo_claro">
-    <div id="titulo_pagina" class="letra_branca fundo_cinza px-0 py-0"><h1>Funcionalidades Javascript</h1></div>
-    <div class="container-fluid">      
-      <div class="row" id="funcionalidades"></div>
-    </div>
-    <script src="javascript_allFunctions/js/allFunctions.js" type="text/javascript"></script>
-</body>
-</html>
+# Funcionalidades Javascript
+## _Exemplos de funcionalidades na prática, todos sendo aplicados e comentados durante a codificação_
+
+[![Build Status](https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png)](https://github.com/muriloabr/javascript_allFunctions)
+
+Base para aplicação e estudo da linguagem Javascript
+
+- Sacadas, padrões;
+- Estruturas, conceitos, funções;
+- ✨Atualizações da linguagem.
+
+Fique por dentro deste repositório com atualizações sempre que possível!
+[ES6] #javascript
