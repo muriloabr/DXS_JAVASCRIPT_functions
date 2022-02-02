@@ -3,7 +3,7 @@
 
 Aplicação e estudo dos conceitos avançados de programação em Javascript
 
- Sacadas, padrões;
+- Sacadas, padrões;
 - Estruturas, conceitos, funções;
 - ✨Atualizações da linguagem + comentários.
 
