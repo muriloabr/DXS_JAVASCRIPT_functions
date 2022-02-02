@@ -1,7 +1,7 @@
 # Funcionalidades Javascript
 ## _Exemplos de funcionalidades na prática, todos sendo aplicados e comentados durante a codificação_
 
-[![Build Status](https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png)](https://github.com/muriloabr/javascript_allFunctions)
+<img src="https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png" alt="dxs" width="100"/> 
 
 Base para aplicação e estudo da linguagem Javascript
 
