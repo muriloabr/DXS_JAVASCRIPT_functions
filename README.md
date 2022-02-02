@@ -1,6 +1,5 @@
 # Funcionalidades Javascript
-## _Exemplos de funcionalidades na prática, todos sendo aplicados e comentados durante a codificação_
-
+### _Exemplos de funcionalidades na prática, todos sendo aplicados e comentados durante a codificação_
 <img src="https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png" alt="dxs" width="100"/> 
 
 Base para aplicação e estudo da linguagem Javascript
