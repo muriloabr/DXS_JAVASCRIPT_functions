@@ -1,12 +1,12 @@
-# Funcionalidades Javascript
-### _Exemplos de funcionalidades na prática, todos sendo aplicados e comentados durante a codificação_
+# DXS | JAVASCRIPT : funcionalidades gerais
 <img src="https://dataxstudios.com.br/assets/images/logo_DXS_400_190.png" alt="dxs" width="100"/> 
 
-Base para aplicação e estudo da linguagem Javascript
+Aplicação e estudo dos conceitos avançados de programação em JavaScript
 
 - Sacadas, padrões;
 - Estruturas, conceitos, funções;
-- ✨Atualizações da linguagem.
+- ✨Atualizações da linguagem + comentários.
 
-Fique por dentro deste repositório com atualizações sempre que possível!
-[ES6] #javascript
+### Tela de resultado final:<br>![imagem da aplicação](https://dataxstudios.com.br/assets/images/github/javascript_functions_1.PNG)
+Fique por dentro deste repositório com atualizações sempre que possível!<br>[ES6][JAVASCRIPT] #javascript
+
