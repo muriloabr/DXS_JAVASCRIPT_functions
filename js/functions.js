@@ -1,4 +1,4 @@
-function adicionarZero(i) { //adicionar zero na hora
+function adicionarZero(i) { //adicionar zero na data: hora
     if (i < 10) {
         i = "0" + i
     }
@@ -12,8 +12,9 @@ function horaAtual(){ //obter a hora atual
     let time = h + ":" + m + ":" + s;
     return time;
 }  
+var elementoFmr = document.getElementById('cabecalho').innerHTML = ("<h3>AGORA : "+ horaAtual()+"</h2>");
 
-console.log("INICIO > "+ horaAtual()); //horario atual
+console.log("INICIO > "+ horaAtual()); //horario inicial das tarefas
 
 /*ARRAYS -- INICIO*/
 let meuArray = [10,11,12,13];
@@ -69,6 +70,7 @@ document.getElementById('funcionalidades').innerHTML = todos_resultados;
 
 
 document.body.onload = carregarNoONloadBody; //setando o onload do body por codigo
+
 function carregarNoONloadBody () {
     var divNova = document.createElement("div"); // cria um novo elemento div
     var conteudoNovo = document.createTextNode("Antes de tudo, muito boa sorte! [adição de elemento]"); // dar conteúdo a div    
@@ -78,5 +80,45 @@ function carregarNoONloadBody () {
     primeiraDiv.parentNode.insertBefore(divNova, primeiraDiv); //adiciono no DOM antes da primeira div selecionada
     primeiraDiv.parentNode.firstChild.className = "letra_vermelha"; //adicionando uma classe ao elemento selecionado
 }
+
 document.getElementById('funcionalidades').children[0].innerHTML += '<hr class="separador espacamento_externo_superior_inferior">';
+
 console.log("FIM > "+ horaAtual()); //horario atual
+
+//FILTER, MAP, REDUCE - INICIO
+var elementoFmr = document.getElementById('fmr');
+
+//array bidimensional | matriz
+var tabuleiroXadrez =
+[ ['R','N','B','Q','K','B','N','R'],
+  ['P','P','P','P','P','P','P','P'],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  [' ',' ',' ',' ',' ',' ',' ',' '],
+  ['p','p','p','p','p','p','p','p'],
+  ['r','n','b','q','k','b','n','r']];
+
+
+listaMetodos = [
+    'join', 'reverse', 'sort', 'push', 'pop', 'shift', 'unshift',
+    'splice', 'concat', 'slice', 'indexOf', 'lastIndexOf',
+    'forEach', 'map', 'reduce', 'reduceRight', 'filter',
+    'some', 'every', 'isArray','slice','push', 'pop', 'shift'
+];
+
+
+var semRepeticao = listaMetodos.filter( function( elem, i, listaMetodos ) {  //removendo duplicatas
+    return listaMetodos.indexOf( elem ) === i;
+} );
+
+var todos_resultados = "<div id='arrays_fmr'>";
+todos_resultados += "<h2>Array.Filter()</h2>";
+todos_resultados += 'LENGTH DO ARRAY INICIAL: ' + listaMetodos.length + ' | LENGTH DO ARRAY SEM AS DUPLICATAS: ' + semRepeticao.length; 
+todos_resultados += '<br>';
+todos_resultados += '<br>';
+
+
+
+
+elementoFmr.innerHTML = (todos_resultados);
