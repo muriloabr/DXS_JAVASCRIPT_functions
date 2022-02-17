@@ -8,6 +8,6 @@
 
 ### Tela de resultado final:<br>![imagem da aplicação](https://dataxstudios.com.br/assets/images/github/javascript_functions_1.PNG)
 
-Fique por dentro deste repositório com atualizações sempre que possível!  
+Fiquem por dentro deste repositório com atualizações sempre que possível!  
 [ES6] [JAVASCRIPT] #javascript #es6
 
