@@ -4,7 +4,7 @@
 **Aplicação e estudo dos conceitos avançados de programação em JavaScript**  
 
 - Estruturas, conceitos, funções e padrões;  
-- ✨Atualizações da linguagem + comentários.  
+✨Atualizações da linguagem + comentários.  
 
 ### Tela de resultado final:<br>![imagem da aplicação](https://dataxstudios.com.br/assets/images/github/javascript_functions_1.PNG)
 
