@@ -118,7 +118,24 @@ todos_resultados += 'LENGTH DO ARRAY INICIAL: ' + listaMetodos.length + ' | LENG
 todos_resultados += '<br>';
 todos_resultados += '<br>';
 
-
-
+listaPessoas = [
+    {
+    id: 1,
+    nome: 'Juarez',
+    idade: 34
+    },
+    {
+    id: 2,
+    nome: 'Manu',
+    idade: 25
+    },
+    {
+    id: 3,
+    nome: 'Paul',
+    idade: 28
+    }
+]
+//FILTRANDO UM ARRAY
+todos_resultados += listaPessoas.filter(pessoa => pessoa.id == 3)[0].nome;
 
 elementoFmr.innerHTML = (todos_resultados);
